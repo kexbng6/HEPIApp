@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A5EB2882641889900844C87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5EB2872641889900844C87 /* AppDelegate.swift */; };
+		0A5EB28A2641889900844C87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5EB2892641889900844C87 /* ViewController.swift */; };
+		0A5EB28D2641889900844C87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5EB28B2641889900844C87 /* Main.storyboard */; };
+		0A5EB28F2641889900844C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A5EB28E2641889900844C87 /* Assets.xcassets */; };
+		0A5EB2922641889900844C87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5EB2902641889900844C87 /* LaunchScreen.storyboard */; };
+		0A5EB29D2641889A00844C87 /* HEPIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5EB29C2641889A00844C87 /* HEPIAppTests.swift */; };
+		0A5EB2A82641889A00844C87 /* HEPIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5EB2A72641889A00844C87 /* HEPIAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A5EB2992641889900844C87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A5EB27C2641889900844C87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A5EB2832641889900844C87;
+			remoteInfo = HEPIApp;
+		};
+		0A5EB2A42641889A00844C87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A5EB27C2641889900844C87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A5EB2832641889900844C87;
+			remoteInfo = HEPIApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A5EB2842641889900844C87 /* HEPIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HEPIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A5EB2872641889900844C87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A5EB2892641889900844C87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A5EB28C2641889900844C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A5EB28E2641889900844C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A5EB2912641889900844C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A5EB2932641889900844C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A5EB2982641889900844C87 /* HEPIAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HEPIAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A5EB29C2641889A00844C87 /* HEPIAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEPIAppTests.swift; sourceTree = "<group>"; };
+		0A5EB29E2641889A00844C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A5EB2A32641889A00844C87 /* HEPIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HEPIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A5EB2A72641889A00844C87 /* HEPIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEPIAppUITests.swift; sourceTree = "<group>"; };
+		0A5EB2A92641889A00844C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A5EB2812641889900844C87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A5EB2952641889900844C87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A5EB2A02641889A00844C87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A5EB27B2641889900844C87 = {
+			isa = PBXGroup;
+			children = (
+				0A5EB2862641889900844C87 /* HEPIApp */,
+				0A5EB29B2641889A00844C87 /* HEPIAppTests */,
+				0A5EB2A62641889A00844C87 /* HEPIAppUITests */,
+				0A5EB2852641889900844C87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A5EB2852641889900844C87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A5EB2842641889900844C87 /* HEPIApp.app */,
+				0A5EB2982641889900844C87 /* HEPIAppTests.xctest */,
+				0A5EB2A32641889A00844C87 /* HEPIAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A5EB2862641889900844C87 /* HEPIApp */ = {
+			isa = PBXGroup;
+			children = (
+				0A5EB2872641889900844C87 /* AppDelegate.swift */,
+				0A5EB2892641889900844C87 /* ViewController.swift */,
+				0A5EB28B2641889900844C87 /* Main.storyboard */,
+				0A5EB28E2641889900844C87 /* Assets.xcassets */,
+				0A5EB2902641889900844C87 /* LaunchScreen.storyboard */,
+				0A5EB2932641889900844C87 /* Info.plist */,
+			);
+			path = HEPIApp;
+			sourceTree = "<group>";
+		};
+		0A5EB29B2641889A00844C87 /* HEPIAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A5EB29C2641889A00844C87 /* HEPIAppTests.swift */,
+				0A5EB29E2641889A00844C87 /* Info.plist */,
+			);
+			path = HEPIAppTests;
+			sourceTree = "<group>";
+		};
+		0A5EB2A62641889A00844C87 /* HEPIAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A5EB2A72641889A00844C87 /* HEPIAppUITests.swift */,
+				0A5EB2A92641889A00844C87 /* Info.plist */,
+			);
+			path = HEPIAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A5EB2832641889900844C87 /* HEPIApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A5EB2AC2641889A00844C87 /* Build configuration list for PBXNativeTarget "HEPIApp" */;
+			buildPhases = (
+				0A5EB2802641889900844C87 /* Sources */,
+				0A5EB2812641889900844C87 /* Frameworks */,
+				0A5EB2822641889900844C87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HEPIApp;
+			productName = HEPIApp;
+			productReference = 0A5EB2842641889900844C87 /* HEPIApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A5EB2972641889900844C87 /* HEPIAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A5EB2AF2641889A00844C87 /* Build configuration list for PBXNativeTarget "HEPIAppTests" */;
+			buildPhases = (
+				0A5EB2942641889900844C87 /* Sources */,
+				0A5EB2952641889900844C87 /* Frameworks */,
+				0A5EB2962641889900844C87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A5EB29A2641889900844C87 /* PBXTargetDependency */,
+			);
+			name = HEPIAppTests;
+			productName = HEPIAppTests;
+			productReference = 0A5EB2982641889900844C87 /* HEPIAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A5EB2A22641889A00844C87 /* HEPIAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A5EB2B22641889A00844C87 /* Build configuration list for PBXNativeTarget "HEPIAppUITests" */;
+			buildPhases = (
+				0A5EB29F2641889A00844C87 /* Sources */,
+				0A5EB2A02641889A00844C87 /* Frameworks */,
+				0A5EB2A12641889A00844C87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A5EB2A52641889A00844C87 /* PBXTargetDependency */,
+			);
+			name = HEPIAppUITests;
+			productName = HEPIAppUITests;
+			productReference = 0A5EB2A32641889A00844C87 /* HEPIAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A5EB27C2641889900844C87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kevin Bonga";
+				TargetAttributes = {
+					0A5EB2832641889900844C87 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0A5EB2972641889900844C87 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0A5EB2832641889900844C87;
+					};
+					0A5EB2A22641889A00844C87 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0A5EB2832641889900844C87;
+					};
+				};
+			};
+			buildConfigurationList = 0A5EB27F2641889900844C87 /* Build configuration list for PBXProject "HEPIApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A5EB27B2641889900844C87;
+			productRefGroup = 0A5EB2852641889900844C87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A5EB2832641889900844C87 /* HEPIApp */,
+				0A5EB2972641889900844C87 /* HEPIAppTests */,
+				0A5EB2A22641889A00844C87 /* HEPIAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A5EB2822641889900844C87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5EB2922641889900844C87 /* LaunchScreen.storyboard in Resources */,
+				0A5EB28F2641889900844C87 /* Assets.xcassets in Resources */,
+				0A5EB28D2641889900844C87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A5EB2962641889900844C87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A5EB2A12641889A00844C87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A5EB2802641889900844C87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5EB28A2641889900844C87 /* ViewController.swift in Sources */,
+				0A5EB2882641889900844C87 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A5EB2942641889900844C87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5EB29D2641889A00844C87 /* HEPIAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A5EB29F2641889A00844C87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5EB2A82641889A00844C87 /* HEPIAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A5EB29A2641889900844C87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A5EB2832641889900844C87 /* HEPIApp */;
+			targetProxy = 0A5EB2992641889900844C87 /* PBXContainerItemProxy */;
+		};
+		0A5EB2A52641889A00844C87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A5EB2832641889900844C87 /* HEPIApp */;
+			targetProxy = 0A5EB2A42641889A00844C87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A5EB28B2641889900844C87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A5EB28C2641889900844C87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A5EB2902641889900844C87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A5EB2912641889900844C87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A5EB2AA2641889A00844C87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A5EB2AB2641889A00844C87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A5EB2AD2641889A00844C87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW473N3AW8;
+				INFOPLIST_FILE = HEPIApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kexbng6.HEPIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A5EB2AE2641889A00844C87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW473N3AW8;
+				INFOPLIST_FILE = HEPIApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kexbng6.HEPIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A5EB2B02641889A00844C87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW473N3AW8;
+				INFOPLIST_FILE = HEPIAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kexbng6.HEPIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HEPIApp.app/HEPIApp";
+			};
+			name = Debug;
+		};
+		0A5EB2B12641889A00844C87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW473N3AW8;
+				INFOPLIST_FILE = HEPIAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kexbng6.HEPIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HEPIApp.app/HEPIApp";
+			};
+			name = Release;
+		};
+		0A5EB2B32641889A00844C87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW473N3AW8;
+				INFOPLIST_FILE = HEPIAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kexbng6.HEPIAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HEPIApp;
+			};
+			name = Debug;
+		};
+		0A5EB2B42641889A00844C87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW473N3AW8;
+				INFOPLIST_FILE = HEPIAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kexbng6.HEPIAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HEPIApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A5EB27F2641889900844C87 /* Build configuration list for PBXProject "HEPIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A5EB2AA2641889A00844C87 /* Debug */,
+				0A5EB2AB2641889A00844C87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A5EB2AC2641889A00844C87 /* Build configuration list for PBXNativeTarget "HEPIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A5EB2AD2641889A00844C87 /* Debug */,
+				0A5EB2AE2641889A00844C87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A5EB2AF2641889A00844C87 /* Build configuration list for PBXNativeTarget "HEPIAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A5EB2B02641889A00844C87 /* Debug */,
+				0A5EB2B12641889A00844C87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A5EB2B22641889A00844C87 /* Build configuration list for PBXNativeTarget "HEPIAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A5EB2B32641889A00844C87 /* Debug */,
+				0A5EB2B42641889A00844C87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A5EB27C2641889900844C87 /* Project object */;
+}
