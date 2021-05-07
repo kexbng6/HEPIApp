@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1FCA642644927A003CFD79 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FCA632644927A003CFD79 /* MapsViewController.swift */; };
+		0A1FCA6626456C8B003CFD79 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FCA6526456C8B003CFD79 /* GoogleService-Info.plist */; };
+		0A1FCA68264590DD003CFD79 /* sitePage_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FCA67264590DB003CFD79 /* sitePage_background.png */; };
+		0A1FCA6A264590EC003CFD79 /* launcher_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FCA69264590EB003CFD79 /* launcher_background.png */; };
+		0A1FCA6C2645910C003CFD79 /* hepiapp_spotlight3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FCA6B2645910C003CFD79 /* hepiapp_spotlight3x.png */; };
+		0A1FCA6E26459123003CFD79 /* geneISC_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FCA6D26459122003CFD79 /* geneISC_logo.png */; };
+		0A2BC3E32642036B00CD4A0B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2BC3E22642036B00CD4A0B /* WebViewController.swift */; };
+		0A2BC3EA264235B800CD4A0B /* HEPIApp_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A2BC3E9264235B800CD4A0B /* HEPIApp_background.png */; };
+		0A5D4DD12643DE1A007D7D15 /* todo_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5D4DD02643DE19007D7D15 /* todo_background.png */; };
+		0A5D4DD3264465CE007D7D15 /* PlanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D4DD2264465CE007D7D15 /* PlanningViewController.swift */; };
 		0A5EB2882641889900844C87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5EB2872641889900844C87 /* AppDelegate.swift */; };
-		0A5EB28A2641889900844C87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5EB2892641889900844C87 /* ViewController.swift */; };
 		0A5EB28D2641889900844C87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5EB28B2641889900844C87 /* Main.storyboard */; };
 		0A5EB28F2641889900844C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A5EB28E2641889900844C87 /* Assets.xcassets */; };
 		0A5EB2922641889900844C87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5EB2902641889900844C87 /* LaunchScreen.storyboard */; };
 		0A5EB29D2641889A00844C87 /* HEPIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5EB29C2641889A00844C87 /* HEPIAppTests.swift */; };
 		0A5EB2A82641889A00844C87 /* HEPIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5EB2A72641889A00844C87 /* HEPIAppUITests.swift */; };
+		0A5EB2B6264191CF00844C87 /* MainActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5EB2B5264191CF00844C87 /* MainActivity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A1FCA632644927A003CFD79 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		0A1FCA6526456C8B003CFD79 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0A1FCA67264590DB003CFD79 /* sitePage_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sitePage_background.png; path = HEPIApp_images/sitePage_background.png; sourceTree = "<group>"; };
+		0A1FCA69264590EB003CFD79 /* launcher_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launcher_background.png; path = HEPIApp_images/launcher_background.png; sourceTree = "<group>"; };
+		0A1FCA6B2645910C003CFD79 /* hepiapp_spotlight3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hepiapp_spotlight3x.png; path = HEPIApp_images/hepiapp_spotlight3x.png; sourceTree = "<group>"; };
+		0A1FCA6D26459122003CFD79 /* geneISC_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = geneISC_logo.png; path = HEPIApp_images/geneISC_logo.png; sourceTree = "<group>"; };
+		0A2BC3E22642036B00CD4A0B /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		0A2BC3E9264235B800CD4A0B /* HEPIApp_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HEPIApp_background.png; path = ../../../../../../../Downloads/HEPIApp_background.png; sourceTree = "<group>"; };
+		0A5D4DD02643DE19007D7D15 /* todo_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = todo_background.png; path = ../../../../../../../Downloads/todo_background.png; sourceTree = "<group>"; };
+		0A5D4DD2264465CE007D7D15 /* PlanningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanningViewController.swift; sourceTree = "<group>"; };
 		0A5EB2842641889900844C87 /* HEPIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HEPIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5EB2872641889900844C87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A5EB2892641889900844C87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0A5EB28C2641889900844C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A5EB28E2641889900844C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A5EB2912641889900844C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +66,7 @@
 		0A5EB2A32641889A00844C87 /* HEPIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HEPIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5EB2A72641889A00844C87 /* HEPIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEPIAppUITests.swift; sourceTree = "<group>"; };
 		0A5EB2A92641889A00844C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A5EB2B5264191CF00844C87 /* MainActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActivity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +94,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A2BC3E42642263600CD4A0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0A5EB27B2641889900844C87 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,7 @@
 				0A5EB29B2641889A00844C87 /* HEPIAppTests */,
 				0A5EB2A62641889A00844C87 /* HEPIAppUITests */,
 				0A5EB2852641889900844C87 /* Products */,
+				0A2BC3E42642263600CD4A0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +125,22 @@
 		0A5EB2862641889900844C87 /* HEPIApp */ = {
 			isa = PBXGroup;
 			children = (
+				0A1FCA6526456C8B003CFD79 /* GoogleService-Info.plist */,
 				0A5EB2872641889900844C87 /* AppDelegate.swift */,
-				0A5EB2892641889900844C87 /* ViewController.swift */,
 				0A5EB28B2641889900844C87 /* Main.storyboard */,
-				0A5EB28E2641889900844C87 /* Assets.xcassets */,
 				0A5EB2902641889900844C87 /* LaunchScreen.storyboard */,
+				0A5EB28E2641889900844C87 /* Assets.xcassets */,
 				0A5EB2932641889900844C87 /* Info.plist */,
+				0A2BC3E9264235B800CD4A0B /* HEPIApp_background.png */,
+				0A1FCA6B2645910C003CFD79 /* hepiapp_spotlight3x.png */,
+				0A1FCA69264590EB003CFD79 /* launcher_background.png */,
+				0A1FCA6D26459122003CFD79 /* geneISC_logo.png */,
+				0A5D4DD02643DE19007D7D15 /* todo_background.png */,
+				0A1FCA67264590DB003CFD79 /* sitePage_background.png */,
+				0A5EB2B5264191CF00844C87 /* MainActivity.swift */,
+				0A2BC3E22642036B00CD4A0B /* WebViewController.swift */,
+				0A5D4DD2264465CE007D7D15 /* PlanningViewController.swift */,
+				0A1FCA632644927A003CFD79 /* MapsViewController.swift */,
 			);
 			path = HEPIApp;
 			sourceTree = "<group>";
@@ -194,6 +232,11 @@
 					0A5EB2832641889900844C87 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					0A5EB2972641889900844C87 = {
 						CreatedOnToolsVersion = 9.2;
@@ -232,9 +275,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A1FCA6C2645910C003CFD79 /* hepiapp_spotlight3x.png in Resources */,
 				0A5EB2922641889900844C87 /* LaunchScreen.storyboard in Resources */,
+				0A1FCA68264590DD003CFD79 /* sitePage_background.png in Resources */,
+				0A5D4DD12643DE1A007D7D15 /* todo_background.png in Resources */,
+				0A1FCA6E26459123003CFD79 /* geneISC_logo.png in Resources */,
+				0A1FCA6A264590EC003CFD79 /* launcher_background.png in Resources */,
 				0A5EB28F2641889900844C87 /* Assets.xcassets in Resources */,
 				0A5EB28D2641889900844C87 /* Main.storyboard in Resources */,
+				0A1FCA6626456C8B003CFD79 /* GoogleService-Info.plist in Resources */,
+				0A2BC3EA264235B800CD4A0B /* HEPIApp_background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +309,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A5EB28A2641889900844C87 /* ViewController.swift in Sources */,
+				0A1FCA642644927A003CFD79 /* MapsViewController.swift in Sources */,
 				0A5EB2882641889900844C87 /* AppDelegate.swift in Sources */,
+				0A5D4DD3264465CE007D7D15 /* PlanningViewController.swift in Sources */,
+				0A5EB2B6264191CF00844C87 /* MainActivity.swift in Sources */,
+				0A2BC3E32642036B00CD4A0B /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,12 +479,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VW473N3AW8;
 				INFOPLIST_FILE = HEPIApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kexbng6.HEPIApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -441,12 +496,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VW473N3AW8;
 				INFOPLIST_FILE = HEPIApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kexbng6.HEPIApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
