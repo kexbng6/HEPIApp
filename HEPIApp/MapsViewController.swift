@@ -14,16 +14,18 @@ class MapsViewController: UIViewController, MKMapViewDelegate {
 
     @IBOutlet weak var mapView: MKMapView!
     let locationManager = CLLocationManager()
-    let regionMeters: Double = 100
+    let regionMeters: Double = 10
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let annotation = MKPointAnnotation()
-        annotation.coordinate = CLLocationCoordinate2D(latitude: 46.209464, longitude: 6.135079)
-        mapView.addAnnotation(annotation)
-        
+        //let annotation = MKPointAnnotation()
+        //annotation.coordinate = CLLocationCoordinate2D(latitude: 46.209464, longitude: 6.135079)
+       // annotation.title = "HEPIA"
+       // annotation.subtitle = "Engineer's home"
+        //mapView.addAnnotation(annotation)
+        checkLocationServices()
         //let region = MKCoordinateRegion(center: annotation.coordinate, span: span)
         //MKCoordinateRegion(center: annotation.coordinate, span: )
     }
@@ -45,6 +47,9 @@ class MapsViewController: UIViewController, MKMapViewDelegate {
             let span = MKCoordinateSpan(latitudeDelta: regionMeters, longitudeDelta: regionMeters)
             let annotation = MKPointAnnotation()
             annotation.coordinate = CLLocationCoordinate2D(latitude: 46.209464, longitude: 6.135079)
+            annotation.title = "HEPIA"
+            annotation.subtitle = "Engineer's home"
+            mapView.addAnnotation(annotation)
             let region = MKCoordinateRegion(center: annotation.coordinate, span: span)
             // --test to remove if it works: let region = MKCoordinateRegion.init(center: location, span: span)
             mapView.setRegion(region, animated: true)
@@ -62,10 +67,15 @@ class MapsViewController: UIViewController, MKMapViewDelegate {
             break
         case .notDetermined:
             locationManager.requestWhenInUseAuthorization()
-            
+            mapView.showsUserLocation = true
+            centerViewOnUserLocation()
         case .restricted:
+            mapView.showsUserLocation = true
+            centerViewOnUserLocation()
             break
         case .authorizedAlways:
+            mapView.showsUserLocation = true
+            centerViewOnUserLocation()
             break
         }
     }
