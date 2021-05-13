@@ -8,14 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0A1FCA642644927A003CFD79 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FCA632644927A003CFD79 /* MapsViewController.swift */; };
-		0A1FCA6626456C8B003CFD79 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FCA6526456C8B003CFD79 /* GoogleService-Info.plist */; };
 		0A1FCA68264590DD003CFD79 /* sitePage_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FCA67264590DB003CFD79 /* sitePage_background.png */; };
 		0A1FCA6A264590EC003CFD79 /* launcher_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FCA69264590EB003CFD79 /* launcher_background.png */; };
 		0A1FCA6C2645910C003CFD79 /* hepiapp_spotlight3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FCA6B2645910C003CFD79 /* hepiapp_spotlight3x.png */; };
 		0A1FCA6E26459123003CFD79 /* geneISC_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FCA6D26459122003CFD79 /* geneISC_logo.png */; };
 		0A2BC3E32642036B00CD4A0B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2BC3E22642036B00CD4A0B /* WebViewController.swift */; };
-		0A2BC3EA264235B800CD4A0B /* HEPIApp_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A2BC3E9264235B800CD4A0B /* HEPIApp_background.png */; };
-		0A5D4DD12643DE1A007D7D15 /* todo_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5D4DD02643DE19007D7D15 /* todo_background.png */; };
 		0A5D4DD3264465CE007D7D15 /* PlanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D4DD2264465CE007D7D15 /* PlanningViewController.swift */; };
 		0A5EB2882641889900844C87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5EB2872641889900844C87 /* AppDelegate.swift */; };
 		0A5EB28D2641889900844C87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5EB28B2641889900844C87 /* Main.storyboard */; };
@@ -24,6 +21,13 @@
 		0A5EB29D2641889A00844C87 /* HEPIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5EB29C2641889A00844C87 /* HEPIAppTests.swift */; };
 		0A5EB2A82641889A00844C87 /* HEPIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5EB2A72641889A00844C87 /* HEPIAppUITests.swift */; };
 		0A5EB2B6264191CF00844C87 /* MainActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5EB2B5264191CF00844C87 /* MainActivity.swift */; };
+		510317BA264C93EE0096CEA5 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510317B9264C93EE0096CEA5 /* CalendarViewController.swift */; };
+		510317E5264DA3A50096CEA5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 510317E4264DA3A40096CEA5 /* GoogleService-Info.plist */; };
+		51E9FF1A26484960009663F7 /* HEPIApp_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E9FF1926484960009663F7 /* HEPIApp_background.png */; };
+		51E9FF1F2648496D009663F7 /* todo_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E9FF1E2648496D009663F7 /* todo_background.png */; };
+		7BBC27B060C2F7F0048A7930 /* Pods_HEPIApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCB3BA5A1A381CBE35ABDF4 /* Pods_HEPIApp.framework */; };
+		C743DD66C9D86CC79E09F6CC /* Pods_HEPIApp_HEPIAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC3EB5FF1304D38A38704382 /* Pods_HEPIApp_HEPIAppUITests.framework */; };
+		C91546E5D418E4C0CC53C7D1 /* Pods_HEPIAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E8136460A6A43397279DA7 /* Pods_HEPIAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +49,11 @@
 
 /* Begin PBXFileReference section */
 		0A1FCA632644927A003CFD79 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
-		0A1FCA6526456C8B003CFD79 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0A1FCA67264590DB003CFD79 /* sitePage_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sitePage_background.png; path = HEPIApp_images/sitePage_background.png; sourceTree = "<group>"; };
 		0A1FCA69264590EB003CFD79 /* launcher_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launcher_background.png; path = HEPIApp_images/launcher_background.png; sourceTree = "<group>"; };
 		0A1FCA6B2645910C003CFD79 /* hepiapp_spotlight3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hepiapp_spotlight3x.png; path = HEPIApp_images/hepiapp_spotlight3x.png; sourceTree = "<group>"; };
 		0A1FCA6D26459122003CFD79 /* geneISC_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = geneISC_logo.png; path = HEPIApp_images/geneISC_logo.png; sourceTree = "<group>"; };
 		0A2BC3E22642036B00CD4A0B /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
-		0A2BC3E9264235B800CD4A0B /* HEPIApp_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HEPIApp_background.png; path = ../../../../../../../Downloads/HEPIApp_background.png; sourceTree = "<group>"; };
-		0A5D4DD02643DE19007D7D15 /* todo_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = todo_background.png; path = ../../../../../../../Downloads/todo_background.png; sourceTree = "<group>"; };
 		0A5D4DD2264465CE007D7D15 /* PlanningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanningViewController.swift; sourceTree = "<group>"; };
 		0A5EB2842641889900844C87 /* HEPIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HEPIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5EB2872641889900844C87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +68,19 @@
 		0A5EB2A72641889A00844C87 /* HEPIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEPIAppUITests.swift; sourceTree = "<group>"; };
 		0A5EB2A92641889A00844C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A5EB2B5264191CF00844C87 /* MainActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActivity.swift; sourceTree = "<group>"; };
+		0E4067BA8A29369465C14364 /* Pods-HEPIAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HEPIAppTests.release.xcconfig"; path = "Target Support Files/Pods-HEPIAppTests/Pods-HEPIAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		26E8136460A6A43397279DA7 /* Pods_HEPIAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HEPIAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		510317B9264C93EE0096CEA5 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		510317E4264DA3A40096CEA5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		51E9FF1926484960009663F7 /* HEPIApp_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HEPIApp_background.png; path = HEPIApp_images/HEPIApp_background.png; sourceTree = "<group>"; };
+		51E9FF1E2648496D009663F7 /* todo_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = todo_background.png; path = HEPIApp_images/todo_background.png; sourceTree = "<group>"; };
+		523A6C1CDBEC2E2B184D039A /* Pods-HEPIAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HEPIAppTests.debug.xcconfig"; path = "Target Support Files/Pods-HEPIAppTests/Pods-HEPIAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F70A8D72881A7E6F20CAE2E /* Pods-HEPIApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HEPIApp.debug.xcconfig"; path = "Target Support Files/Pods-HEPIApp/Pods-HEPIApp.debug.xcconfig"; sourceTree = "<group>"; };
+		967DBDA89D403DAC4699C18D /* Pods-HEPIApp-HEPIAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HEPIApp-HEPIAppUITests.release.xcconfig"; path = "Target Support Files/Pods-HEPIApp-HEPIAppUITests/Pods-HEPIApp-HEPIAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A31C0BBAD12CC0F39870CD7F /* Pods-HEPIApp-HEPIAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HEPIApp-HEPIAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-HEPIApp-HEPIAppUITests/Pods-HEPIApp-HEPIAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCCB3BA5A1A381CBE35ABDF4 /* Pods_HEPIApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HEPIApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3EB5FF1304D38A38704382 /* Pods_HEPIApp_HEPIAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HEPIApp_HEPIAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B1D69C9D61B4EFD097C414 /* Pods-HEPIApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HEPIApp.release.xcconfig"; path = "Target Support Files/Pods-HEPIApp/Pods-HEPIApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BBC27B060C2F7F0048A7930 /* Pods_HEPIApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C91546E5D418E4C0CC53C7D1 /* Pods_HEPIAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C743DD66C9D86CC79E09F6CC /* Pods_HEPIApp_HEPIAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +114,9 @@
 		0A2BC3E42642263600CD4A0B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BCCB3BA5A1A381CBE35ABDF4 /* Pods_HEPIApp.framework */,
+				DC3EB5FF1304D38A38704382 /* Pods_HEPIApp_HEPIAppUITests.framework */,
+				26E8136460A6A43397279DA7 /* Pods_HEPIAppTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,6 +129,7 @@
 				0A5EB2A62641889A00844C87 /* HEPIAppUITests */,
 				0A5EB2852641889900844C87 /* Products */,
 				0A2BC3E42642263600CD4A0B /* Frameworks */,
+				12F16F9B164CDCBE4FB0FEB7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,22 +146,23 @@
 		0A5EB2862641889900844C87 /* HEPIApp */ = {
 			isa = PBXGroup;
 			children = (
-				0A1FCA6526456C8B003CFD79 /* GoogleService-Info.plist */,
+				510317E4264DA3A40096CEA5 /* GoogleService-Info.plist */,
 				0A5EB2872641889900844C87 /* AppDelegate.swift */,
 				0A5EB28B2641889900844C87 /* Main.storyboard */,
 				0A5EB2902641889900844C87 /* LaunchScreen.storyboard */,
 				0A5EB28E2641889900844C87 /* Assets.xcassets */,
 				0A5EB2932641889900844C87 /* Info.plist */,
-				0A2BC3E9264235B800CD4A0B /* HEPIApp_background.png */,
 				0A1FCA6B2645910C003CFD79 /* hepiapp_spotlight3x.png */,
+				51E9FF1926484960009663F7 /* HEPIApp_background.png */,
 				0A1FCA69264590EB003CFD79 /* launcher_background.png */,
 				0A1FCA6D26459122003CFD79 /* geneISC_logo.png */,
-				0A5D4DD02643DE19007D7D15 /* todo_background.png */,
+				51E9FF1E2648496D009663F7 /* todo_background.png */,
 				0A1FCA67264590DB003CFD79 /* sitePage_background.png */,
 				0A5EB2B5264191CF00844C87 /* MainActivity.swift */,
 				0A2BC3E22642036B00CD4A0B /* WebViewController.swift */,
 				0A5D4DD2264465CE007D7D15 /* PlanningViewController.swift */,
 				0A1FCA632644927A003CFD79 /* MapsViewController.swift */,
+				510317B9264C93EE0096CEA5 /* CalendarViewController.swift */,
 			);
 			path = HEPIApp;
 			sourceTree = "<group>";
@@ -163,6 +185,19 @@
 			path = HEPIAppUITests;
 			sourceTree = "<group>";
 		};
+		12F16F9B164CDCBE4FB0FEB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F70A8D72881A7E6F20CAE2E /* Pods-HEPIApp.debug.xcconfig */,
+				F3B1D69C9D61B4EFD097C414 /* Pods-HEPIApp.release.xcconfig */,
+				A31C0BBAD12CC0F39870CD7F /* Pods-HEPIApp-HEPIAppUITests.debug.xcconfig */,
+				967DBDA89D403DAC4699C18D /* Pods-HEPIApp-HEPIAppUITests.release.xcconfig */,
+				523A6C1CDBEC2E2B184D039A /* Pods-HEPIAppTests.debug.xcconfig */,
+				0E4067BA8A29369465C14364 /* Pods-HEPIAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A5EB2AC2641889A00844C87 /* Build configuration list for PBXNativeTarget "HEPIApp" */;
 			buildPhases = (
+				B3A0D1D03A3A3551DA2F242A /* [CP] Check Pods Manifest.lock */,
 				0A5EB2802641889900844C87 /* Sources */,
 				0A5EB2812641889900844C87 /* Frameworks */,
 				0A5EB2822641889900844C87 /* Resources */,
+				C269D71943FEF9FC14B14817 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A5EB2AF2641889A00844C87 /* Build configuration list for PBXNativeTarget "HEPIAppTests" */;
 			buildPhases = (
+				0DCCAAFA4006F90BDAA9496A /* [CP] Check Pods Manifest.lock */,
 				0A5EB2942641889900844C87 /* Sources */,
 				0A5EB2952641889900844C87 /* Frameworks */,
 				0A5EB2962641889900844C87 /* Resources */,
@@ -205,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A5EB2B22641889A00844C87 /* Build configuration list for PBXNativeTarget "HEPIAppUITests" */;
 			buildPhases = (
+				36DA4892C0D1E7DB92B7114B /* [CP] Check Pods Manifest.lock */,
 				0A5EB29F2641889A00844C87 /* Sources */,
 				0A5EB2A02641889A00844C87 /* Frameworks */,
 				0A5EB2A12641889A00844C87 /* Resources */,
+				827E2705331F17135370222E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -278,13 +318,13 @@
 				0A1FCA6C2645910C003CFD79 /* hepiapp_spotlight3x.png in Resources */,
 				0A5EB2922641889900844C87 /* LaunchScreen.storyboard in Resources */,
 				0A1FCA68264590DD003CFD79 /* sitePage_background.png in Resources */,
-				0A5D4DD12643DE1A007D7D15 /* todo_background.png in Resources */,
+				51E9FF1F2648496D009663F7 /* todo_background.png in Resources */,
+				51E9FF1A26484960009663F7 /* HEPIApp_background.png in Resources */,
 				0A1FCA6E26459123003CFD79 /* geneISC_logo.png in Resources */,
 				0A1FCA6A264590EC003CFD79 /* launcher_background.png in Resources */,
+				510317E5264DA3A50096CEA5 /* GoogleService-Info.plist in Resources */,
 				0A5EB28F2641889900844C87 /* Assets.xcassets in Resources */,
 				0A5EB28D2641889900844C87 /* Main.storyboard in Resources */,
-				0A1FCA6626456C8B003CFD79 /* GoogleService-Info.plist in Resources */,
-				0A2BC3EA264235B800CD4A0B /* HEPIApp_background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,11 +344,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DCCAAFA4006F90BDAA9496A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HEPIAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36DA4892C0D1E7DB92B7114B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HEPIApp-HEPIAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		827E2705331F17135370222E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HEPIApp-HEPIAppUITests/Pods-HEPIApp-HEPIAppUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseStorage/FirebaseStorage.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseStorage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HEPIApp-HEPIAppUITests/Pods-HEPIApp-HEPIAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3A0D1D03A3A3551DA2F242A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HEPIApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C269D71943FEF9FC14B14817 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HEPIApp/Pods-HEPIApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseStorage/FirebaseStorage.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseStorage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HEPIApp/Pods-HEPIApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A5EB2802641889900844C87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				510317BA264C93EE0096CEA5 /* CalendarViewController.swift in Sources */,
 				0A1FCA642644927A003CFD79 /* MapsViewController.swift in Sources */,
 				0A5EB2882641889900844C87 /* AppDelegate.swift in Sources */,
 				0A5D4DD3264465CE007D7D15 /* PlanningViewController.swift in Sources */,
@@ -477,6 +659,7 @@
 		};
 		0A5EB2AD2641889A00844C87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F70A8D72881A7E6F20CAE2E /* Pods-HEPIApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -494,6 +677,7 @@
 		};
 		0A5EB2AE2641889A00844C87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3B1D69C9D61B4EFD097C414 /* Pods-HEPIApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -511,6 +695,7 @@
 		};
 		0A5EB2B02641889A00844C87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 523A6C1CDBEC2E2B184D039A /* Pods-HEPIAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +713,7 @@
 		};
 		0A5EB2B12641889A00844C87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E4067BA8A29369465C14364 /* Pods-HEPIAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -545,6 +731,7 @@
 		};
 		0A5EB2B32641889A00844C87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A31C0BBAD12CC0F39870CD7F /* Pods-HEPIApp-HEPIAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -561,6 +748,7 @@
 		};
 		0A5EB2B42641889A00844C87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 967DBDA89D403DAC4699C18D /* Pods-HEPIApp-HEPIAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Swo-ee-38I">
-    <device id="retina5_9" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Swo-ee-38I">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Futura.ttc">
-            <string>Futura-Medium</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Web-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="mainAct_vc" id="BYZ-38-t0r" customClass="MainActivity" customModule="HEPIApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sitePage_background.png" translatesAutoresizingMaskIntoConstraints="NO" id="av4-aX-k6X">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="729"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWz-0E-qSM">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWz-0E-qSM">
                                 <rect key="frame" x="240" y="414" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="geneISC_logo.png"/>
@@ -34,7 +28,7 @@
                                     <segue destination="Qh8-ec-r2u" kind="show" identifier="geneISC" id="epI-PJ-wHe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Cg-9U-Cxz">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Cg-9U-Cxz">
                                 <rect key="frame" x="240" y="256" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.88854604960000005" green="0.0012645937969999999" blue="0.096453748640000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -46,7 +40,7 @@
                                     <segue destination="Qh8-ec-r2u" kind="show" identifier="portesOuvertes" id="sEB-m5-OSp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1E0-s1-ETs">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1E0-s1-ETs">
                                 <rect key="frame" x="240" y="558" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -58,7 +52,7 @@
                                     <segue destination="Qh8-ec-r2u" kind="show" identifier="FichesISC" id="akc-l2-cyV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KyJ-uK-XIY">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KyJ-uK-XIY">
                                 <rect key="frame" x="240" y="111" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="hepiapp_spotlight3x.png"/>
@@ -99,6 +93,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.39940458536148071" green="0.41508418321609497" blue="0.45246613025665283" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="av4-aX-k6X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8JR-vK-2MC"/>
@@ -106,7 +101,6 @@
                             <constraint firstAttribute="bottom" secondItem="av4-aX-k6X" secondAttribute="bottom" constant="83" id="QXy-Ra-rc0"/>
                             <constraint firstItem="av4-aX-k6X" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="yiG-yI-f81"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Web" image="web" id="62y-Nt-2zn"/>
                     <navigationItem key="navigationItem" id="OQL-u6-Zee"/>
@@ -120,36 +114,46 @@
             <objects>
                 <viewController id="mfM-LN-qsM" customClass="PlanningViewController" customModule="HEPIApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="x2a-KB-9tH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="w2i-hI-Pt8">
-                                <rect key="frame" x="16" y="57" width="343" height="610"/>
+                                <rect key="frame" x="16" y="13" width="382" height="684"/>
                                 <accessibility key="accessibilityConfiguration" identifier="horaireImageView"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZFP-cs-SSD">
-                                <rect key="frame" x="102" y="679" width="171" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZFP-cs-SSD">
+                                <rect key="frame" x="20" y="700" width="171" height="35"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <state key="normal" title="Mettre à jour l'horaire"/>
                                 <connections>
                                     <action selector="activatePhotoLib:" destination="mfM-LN-qsM" eventType="touchUpInside" id="hvc-oe-pcx"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ID9-Ms-9Nb">
+                                <rect key="frame" x="312" y="703" width="82" height="35"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <state key="normal" title="Calendrier"/>
+                                <connections>
+                                    <segue destination="Dlm-wK-Vkv" kind="show" id="rHe-p8-IbF"/>
+                                </connections>
+                            </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="12w-ct-qvf"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="w2i-hI-Pt8" firstAttribute="leading" secondItem="12w-ct-qvf" secondAttribute="leading" constant="16" id="7Kt-b0-Zc7"/>
+                            <constraint firstItem="ZFP-cs-SSD" firstAttribute="leading" secondItem="12w-ct-qvf" secondAttribute="leading" constant="20" id="B3i-wq-jIM"/>
                             <constraint firstItem="w2i-hI-Pt8" firstAttribute="centerX" secondItem="x2a-KB-9tH" secondAttribute="centerX" id="Q7I-pX-73N"/>
                             <constraint firstItem="12w-ct-qvf" firstAttribute="trailing" secondItem="w2i-hI-Pt8" secondAttribute="trailing" constant="16" id="T9y-PM-xMx"/>
                             <constraint firstItem="12w-ct-qvf" firstAttribute="bottom" secondItem="w2i-hI-Pt8" secondAttribute="bottom" constant="62" id="ZrK-Q3-Owd"/>
+                            <constraint firstItem="12w-ct-qvf" firstAttribute="trailing" secondItem="ID9-Ms-9Nb" secondAttribute="trailing" constant="20" id="blx-0F-AWd"/>
+                            <constraint firstItem="12w-ct-qvf" firstAttribute="bottom" secondItem="ZFP-cs-SSD" secondAttribute="bottom" constant="24" id="dTg-JB-bXZ"/>
                             <constraint firstItem="w2i-hI-Pt8" firstAttribute="top" secondItem="12w-ct-qvf" secondAttribute="top" constant="13" id="eWA-t0-cUi"/>
-                            <constraint firstItem="ZFP-cs-SSD" firstAttribute="centerX" secondItem="x2a-KB-9tH" secondAttribute="centerX" id="fGi-Aa-I7N"/>
-                            <constraint firstItem="12w-ct-qvf" firstAttribute="bottom" secondItem="ZFP-cs-SSD" secondAttribute="bottom" constant="20" id="qrK-jY-uuM"/>
-                            <constraint firstItem="ZFP-cs-SSD" firstAttribute="top" secondItem="w2i-hI-Pt8" secondAttribute="bottom" constant="12" id="zFz-pc-Ah3"/>
+                            <constraint firstItem="ID9-Ms-9Nb" firstAttribute="top" secondItem="w2i-hI-Pt8" secondAttribute="bottom" constant="6" id="yWu-9U-8Is"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="12w-ct-qvf"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Planning" image="schedule" id="W0K-RS-mHK"/>
+                    <navigationItem key="navigationItem" id="CRr-kt-BaI"/>
                     <connections>
                         <outlet property="horaireImageView" destination="w2i-hI-Pt8" id="iCA-bV-kYn"/>
                     </connections>
@@ -163,7 +167,7 @@
             <objects>
                 <viewController storyboardIdentifier="web_vc" id="Qh8-ec-r2u" customClass="WebViewController" customModule="HEPIApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UXn-25-kb1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nIt-Uq-lOj">
@@ -175,7 +179,7 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gu-8a-mw6">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gu-8a-mw6">
                                 <rect key="frame" x="22" y="19" width="66" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
@@ -187,8 +191,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="cxU-rD-ns1"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="HPH-oX-EPG">
                         <nil key="title"/>
@@ -201,57 +205,60 @@
             </objects>
             <point key="canvasLocation" x="3228" y="1058.8669950738918"/>
         </scene>
-        <!--Root View Controller-->
-        <scene sceneID="sho-sn-pv6">
-            <objects>
-                <tableViewController id="dNx-r9-rzK" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ikG-2X-jzh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="eUL-zR-v5g">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eUL-zR-v5g" id="2Zq-bc-rAT">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="dNx-r9-rzK" id="k9L-w0-jui"/>
-                            <outlet property="delegate" destination="dNx-r9-rzK" id="yTo-Me-Ldc"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="LC2-4n-OaE"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Fyh-B3-SUR" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5878" y="273"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="g2B-c4-V9l">
             <objects>
                 <navigationController id="Dlm-wK-Vkv" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="uNy-JD-YMg"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0XE-by-Mj3">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="dNx-r9-rzK" kind="relationship" relationship="rootViewController" id="Qdv-se-fHY"/>
+                        <segue destination="r51-Kv-joz" kind="relationship" relationship="rootViewController" id="TBv-GX-it3"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aua-n5-0GW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4926" y="273"/>
         </scene>
+        <!--Calendar View Controller-->
+        <scene sceneID="f16-6D-gen">
+            <objects>
+                <viewController id="r51-Kv-joz" customClass="CalendarViewController" customModule="HEPIApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Hb-Ab-kv1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uFd-6M-sfd" customClass="FSCalendar">
+                                <rect key="frame" x="0.0" y="56" width="414" height="554"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Rfc-Cz-tf6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="uFd-6M-sfd" firstAttribute="leading" secondItem="Rfc-Cz-tf6" secondAttribute="leading" id="ECI-CR-VPP"/>
+                            <constraint firstItem="uFd-6M-sfd" firstAttribute="trailing" secondItem="Rfc-Cz-tf6" secondAttribute="trailing" id="d7O-cX-R5M"/>
+                            <constraint firstItem="Rfc-Cz-tf6" firstAttribute="bottom" secondItem="uFd-6M-sfd" secondAttribute="bottom" constant="198" id="mNj-ht-Psk"/>
+                            <constraint firstItem="uFd-6M-sfd" firstAttribute="top" secondItem="Rfc-Cz-tf6" secondAttribute="top" id="qvC-xO-XHO"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="deJ-RH-616"/>
+                    <connections>
+                        <outlet property="calendar" destination="uFd-6M-sfd" id="gak-eT-dPq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z1f-Gd-XnV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5947.826086956522" y="272.54464285714283"/>
+        </scene>
         <!--Accueil-->
         <scene sceneID="vRe-TS-pEK">
             <objects>
                 <viewController id="Oww-IF-UA8" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PI6-WP-mJQ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HEPIApp_background.png" translatesAutoresizingMaskIntoConstraints="NO" id="NvU-Ub-3qh">
@@ -268,8 +275,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="zqe-Lf-jRO"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Accueil" image="accueil" id="vtF-6T-amM"/>
                 </viewController>
@@ -282,13 +289,13 @@
             <objects>
                 <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="qda-h5-i01" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cyK-R6-VrG">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="todo_background.png" translatesAutoresizingMaskIntoConstraints="NO" id="cwK-yQ-F8g">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTh-o2-nGi">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTh-o2-nGi">
                                 <rect key="frame" x="0.0" y="24" width="91" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="&lt; Retour">
@@ -299,6 +306,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="uZ2-sq-4bR"/>
                         <color key="backgroundColor" red="0.4723454124" green="0.69970157840000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="cwK-yQ-F8g" firstAttribute="top" secondItem="cyK-R6-VrG" secondAttribute="top" id="2NY-sO-QTN"/>
@@ -306,7 +314,6 @@
                             <constraint firstAttribute="trailing" secondItem="cwK-yQ-F8g" secondAttribute="trailing" id="nSR-Jf-tox"/>
                             <constraint firstItem="cwK-yQ-F8g" firstAttribute="leading" secondItem="cyK-R6-VrG" secondAttribute="leading" id="ws2-yk-Ulw"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="uZ2-sq-4bR"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="To do" image="checklist" id="ZYZ-Rt-SSD"/>
                 </viewController>
@@ -319,16 +326,17 @@
             <objects>
                 <viewController id="XBM-SA-Tej" customClass="MapsViewController" customModule="HEPIApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3i1-zp-262">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="KvM-Kd-36Z">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="729"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
                                 <connections>
                                     <outlet property="delegate" destination="XBM-SA-Tej" id="JMs-hP-aYR"/>
                                 </connections>
                             </mapView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="AAD-GN-9sV"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="KvM-Kd-36Z" firstAttribute="top" secondItem="3i1-zp-262" secondAttribute="top" id="EC8-Xn-6Wy"/>
@@ -337,7 +345,6 @@
                             <constraint firstItem="KvM-Kd-36Z" firstAttribute="leading" secondItem="3i1-zp-262" secondAttribute="leading" id="uih-C9-flR"/>
                             <constraint firstAttribute="trailing" secondItem="KvM-Kd-36Z" secondAttribute="trailing" id="whD-nb-jc5"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="AAD-GN-9sV"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Carte" image="maps" id="3Ge-Ip-LIt"/>
                     <connections>
@@ -370,19 +377,22 @@
             <point key="canvasLocation" x="1978" y="-470"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="dd8-sM-RRS"/>
+    </inferredMetricsTieBreakers>
     <resources>
-        <image name="HEPIApp_background.png" width="1080" height="1920"/>
+        <image name="HEPIApp_background.png" width="810" height="1440"/>
         <image name="accueil" width="25" height="25"/>
         <image name="checklist" width="25" height="25"/>
         <image name="geneISC_logo.png" width="285" height="225"/>
         <image name="hepiapp_spotlight3x.png" width="120" height="120"/>
         <image name="maps" width="25" height="25"/>
         <image name="schedule" width="25" height="25"/>
-        <image name="sitePage_background.png" width="1080" height="1920"/>
-        <image name="todo_background.png" width="1080" height="1920"/>
+        <image name="sitePage_background.png" width="810" height="1440"/>
+        <image name="todo_background.png" width="810" height="1440"/>
         <image name="web" width="25" height="25"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="dd8-sM-RRS"/>
-    </inferredMetricsTieBreakers>
 </document>
