@@ -1,17 +1,18 @@
 //
-//  PlanningViewController.swift
+//  DocumentController.swift
 //  HEPIApp
 //
-//  Created by Kevin Bonga on 06.05.21.
+//  Created by Kevin Bonga on 20.08.21.
 //  Copyright © 2021 Kevin Bonga. All rights reserved.
 //
+
 
 import UIKit
 import Photos
 import FirebaseStorage
 import Firebase
 
-class PlanningViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class DocumentController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
 
     

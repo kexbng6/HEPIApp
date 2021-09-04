@@ -1,8 +1,8 @@
 //
-//  PlanningViewController.swift
+//  Carte_EtudiantViewController.swift
 //  HEPIApp
 //
-//  Created by Kevin Bonga on 06.05.21.
+//  Created by Kevin Bonga on 21.08.21.
 //  Copyright © 2021 Kevin Bonga. All rights reserved.
 //
 
@@ -11,7 +11,7 @@ import Photos
 import FirebaseStorage
 import Firebase
 
-class PlanningViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class Carte_EtudiantViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
 
     
@@ -26,14 +26,14 @@ class PlanningViewController: UIViewController, UIImagePickerControllerDelegate,
             
             DispatchQueue.main.async {
                 let image = UIImage(data: data)
-                self.horaireImageView.image = image
+                self.carteEtudiantImageView.image = image
             }
         })
         task.resume()
     }
     
-    @IBOutlet weak var horaireImageView: UIImageView!
     
+    @IBOutlet weak var carteEtudiantImageView: UIImageView!
     
     @IBAction func activatePhotoLib(_ sender: UIButton) {
         if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.photoLibrary) {
@@ -48,7 +48,7 @@ class PlanningViewController: UIViewController, UIImagePickerControllerDelegate,
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
-            horaireImageView.image = image
+            carteEtudiantImageView.image = image
             uploadImagePic(img1: image)
         }
         picker.dismiss(animated: true, completion: nil);
@@ -59,7 +59,7 @@ class PlanningViewController: UIViewController, UIImagePickerControllerDelegate,
 
         var data = NSData()
         data = UIImageJPEGRepresentation(img1, 0.8)! as NSData
-        let filePath = "images/file.jpeg"
+        let filePath = "images/carte_eleve.jpeg"
         let metaData = StorageMetadata()
         metaData.contentType = "image/jpg"
         

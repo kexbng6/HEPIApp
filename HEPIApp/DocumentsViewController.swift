@@ -1,31 +1,26 @@
 //
-//  CalendarViewController.swift
+//  DocumentsViewController.swift
 //  HEPIApp
 //
-//  Created by Kevin Bonga on 13.05.21.
+//  Created by Kevin Bonga on 24.08.21.
 //  Copyright © 2021 Kevin Bonga. All rights reserved.
 //
 
-
-import FSCalendar
 import UIKit
 
-class CalendarViewController: UIViewController, FSCalendarDelegate, UITableViewDelegate {
+class DocumentsViewController: UIViewController {
 
-    @IBOutlet var calendar: FSCalendar!
+
+    @IBOutlet weak var carteBtn: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        calendar.delegate = self
 
         // Do any additional setup after loading the view.
+        
+        carteBtn.layer.cornerRadius = 17.0
     }
-    
-    func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {
-        let formatter = DateFormatter()
-        formatter.dateFormat = "EEEE dd-MM-YYYY"
-    }
-    
     
     /*
     // MARK: - Navigation

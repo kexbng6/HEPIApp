@@ -23,6 +23,22 @@
 		0A5EB2B6264191CF00844C87 /* MainActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5EB2B5264191CF00844C87 /* MainActivity.swift */; };
 		510317BA264C93EE0096CEA5 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510317B9264C93EE0096CEA5 /* CalendarViewController.swift */; };
 		510317E5264DA3A50096CEA5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 510317E4264DA3A40096CEA5 /* GoogleService-Info.plist */; };
+		51286AC726D46D6200C4C830 /* DocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51286AC626D46D6200C4C830 /* DocumentsViewController.swift */; };
+		51344A4526D9B6A900BE8D1A /* EvenvetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51344A4426D9B6A900BE8D1A /* EvenvetTableViewCell.swift */; };
+		516E624826D6EE8C0052160F /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E624726D6EE8C0052160F /* EventViewController.swift */; };
+		51852E8126D00BFA00813142 /* DocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51852E8026D00BFA00813142 /* DocumentController.swift */; };
+		51852E8726D184E400813142 /* AttestationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51852E8626D184E400813142 /* AttestationViewController.swift */; };
+		51852E9F26D1855600813142 /* Carte_EtudiantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51852E9E26D1855600813142 /* Carte_EtudiantViewController.swift */; };
+		518728EC26E031EC00D77320 /* ListeNotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518728EB26E031EC00D77320 /* ListeNotesTableViewController.swift */; };
+		518728F126E0455D00D77320 /* ListNotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518728F026E0455D00D77320 /* ListNotesTableViewCell.swift */; };
+		518728F626E04FFD00D77320 /* DisplayNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518728F526E04FFD00D77320 /* DisplayNoteViewController.swift */; };
+		5187290526E07B5F00D77320 /* HEPIApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5187290326E07B5F00D77320 /* HEPIApp.xcdatamodeld */; };
+		5187290A26E07EEE00D77320 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5187290926E07EEE00D77320 /* CoreDataHelper.swift */; };
+		51CDE5DD2661B9CE00B56FF3 /* ForecastTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CDE5DC2661B9CE00B56FF3 /* ForecastTableTableViewController.swift */; };
+		51CDE5E22661BAA800B56FF3 /* DailyForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CDE5E12661BAA800B56FF3 /* DailyForecastTableViewCell.swift */; };
+		51E88FD226585AB5000BBBE0 /* icons8-delete-bin-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E88FCF26585AB1000BBBE0 /* icons8-delete-bin-64.png */; };
+		51E88FD326585AB6000BBBE0 /* icons8-edit-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E88FD026585AB4000BBBE0 /* icons8-edit-100.png */; };
+		51E88FD426585AB6000BBBE0 /* icons8-calendar-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E88FD126585AB5000BBBE0 /* icons8-calendar-64.png */; };
 		51E9FF1A26484960009663F7 /* HEPIApp_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E9FF1926484960009663F7 /* HEPIApp_background.png */; };
 		51E9FF1F2648496D009663F7 /* todo_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E9FF1E2648496D009663F7 /* todo_background.png */; };
 		7BBC27B060C2F7F0048A7930 /* Pods_HEPIApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCB3BA5A1A381CBE35ABDF4 /* Pods_HEPIApp.framework */; };
@@ -72,6 +88,22 @@
 		26E8136460A6A43397279DA7 /* Pods_HEPIAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HEPIAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		510317B9264C93EE0096CEA5 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		510317E4264DA3A40096CEA5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		51286AC626D46D6200C4C830 /* DocumentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsViewController.swift; sourceTree = "<group>"; };
+		51344A4426D9B6A900BE8D1A /* EvenvetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenvetTableViewCell.swift; sourceTree = "<group>"; };
+		516E624726D6EE8C0052160F /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		51852E8026D00BFA00813142 /* DocumentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentController.swift; sourceTree = "<group>"; };
+		51852E8626D184E400813142 /* AttestationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttestationViewController.swift; sourceTree = "<group>"; };
+		51852E9E26D1855600813142 /* Carte_EtudiantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carte_EtudiantViewController.swift; sourceTree = "<group>"; };
+		518728EB26E031EC00D77320 /* ListeNotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeNotesTableViewController.swift; sourceTree = "<group>"; };
+		518728F026E0455D00D77320 /* ListNotesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNotesTableViewCell.swift; sourceTree = "<group>"; };
+		518728F526E04FFD00D77320 /* DisplayNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayNoteViewController.swift; sourceTree = "<group>"; };
+		5187290426E07B5F00D77320 /* HEPIApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HEPIApp.xcdatamodel; sourceTree = "<group>"; };
+		5187290926E07EEE00D77320 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		51CDE5DC2661B9CE00B56FF3 /* ForecastTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableTableViewController.swift; sourceTree = "<group>"; };
+		51CDE5E12661BAA800B56FF3 /* DailyForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForecastTableViewCell.swift; sourceTree = "<group>"; };
+		51E88FCF26585AB1000BBBE0 /* icons8-delete-bin-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-delete-bin-64.png"; path = "HEPIApp_images/icons8-delete-bin-64.png"; sourceTree = "<group>"; };
+		51E88FD026585AB4000BBBE0 /* icons8-edit-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-edit-100.png"; path = "HEPIApp_images/icons8-edit-100.png"; sourceTree = "<group>"; };
+		51E88FD126585AB5000BBBE0 /* icons8-calendar-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-calendar-64.png"; path = "HEPIApp_images/icons8-calendar-64.png"; sourceTree = "<group>"; };
 		51E9FF1926484960009663F7 /* HEPIApp_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HEPIApp_background.png; path = HEPIApp_images/HEPIApp_background.png; sourceTree = "<group>"; };
 		51E9FF1E2648496D009663F7 /* todo_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = todo_background.png; path = HEPIApp_images/todo_background.png; sourceTree = "<group>"; };
 		523A6C1CDBEC2E2B184D039A /* Pods-HEPIAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HEPIAppTests.debug.xcconfig"; path = "Target Support Files/Pods-HEPIAppTests/Pods-HEPIAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,12 +178,25 @@
 		0A5EB2862641889900844C87 /* HEPIApp */ = {
 			isa = PBXGroup;
 			children = (
+				51CDE5DB2661B71C00B56FF3 /* ViewsControllers */,
+				51CDE5DA2661B6F200B56FF3 /* Views */,
 				510317E4264DA3A40096CEA5 /* GoogleService-Info.plist */,
 				0A5EB2872641889900844C87 /* AppDelegate.swift */,
 				0A5EB28B2641889900844C87 /* Main.storyboard */,
+				518728F526E04FFD00D77320 /* DisplayNoteViewController.swift */,
+				5187290926E07EEE00D77320 /* CoreDataHelper.swift */,
+				518728EB26E031EC00D77320 /* ListeNotesTableViewController.swift */,
+				518728F026E0455D00D77320 /* ListNotesTableViewCell.swift */,
+				5187290326E07B5F00D77320 /* HEPIApp.xcdatamodeld */,
+				51344A4426D9B6A900BE8D1A /* EvenvetTableViewCell.swift */,
+				51286AC626D46D6200C4C830 /* DocumentsViewController.swift */,
+				51852E8026D00BFA00813142 /* DocumentController.swift */,
 				0A5EB2902641889900844C87 /* LaunchScreen.storyboard */,
 				0A5EB28E2641889900844C87 /* Assets.xcassets */,
 				0A5EB2932641889900844C87 /* Info.plist */,
+				51E88FD126585AB5000BBBE0 /* icons8-calendar-64.png */,
+				51E88FCF26585AB1000BBBE0 /* icons8-delete-bin-64.png */,
+				51E88FD026585AB4000BBBE0 /* icons8-edit-100.png */,
 				0A1FCA6B2645910C003CFD79 /* hepiapp_spotlight3x.png */,
 				51E9FF1926484960009663F7 /* HEPIApp_background.png */,
 				0A1FCA69264590EB003CFD79 /* launcher_background.png */,
@@ -159,10 +204,13 @@
 				51E9FF1E2648496D009663F7 /* todo_background.png */,
 				0A1FCA67264590DB003CFD79 /* sitePage_background.png */,
 				0A5EB2B5264191CF00844C87 /* MainActivity.swift */,
+				51852E8626D184E400813142 /* AttestationViewController.swift */,
+				51852E9E26D1855600813142 /* Carte_EtudiantViewController.swift */,
 				0A2BC3E22642036B00CD4A0B /* WebViewController.swift */,
 				0A5D4DD2264465CE007D7D15 /* PlanningViewController.swift */,
 				0A1FCA632644927A003CFD79 /* MapsViewController.swift */,
 				510317B9264C93EE0096CEA5 /* CalendarViewController.swift */,
+				516E624726D6EE8C0052160F /* EventViewController.swift */,
 			);
 			path = HEPIApp;
 			sourceTree = "<group>";
@@ -196,6 +244,22 @@
 				0E4067BA8A29369465C14364 /* Pods-HEPIAppTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		51CDE5DA2661B6F200B56FF3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				51CDE5E12661BAA800B56FF3 /* DailyForecastTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		51CDE5DB2661B71C00B56FF3 /* ViewsControllers */ = {
+			isa = PBXGroup;
+			children = (
+				51CDE5DC2661B9CE00B56FF3 /* ForecastTableTableViewController.swift */,
+			);
+			path = ViewsControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,9 +384,12 @@
 				0A1FCA68264590DD003CFD79 /* sitePage_background.png in Resources */,
 				51E9FF1F2648496D009663F7 /* todo_background.png in Resources */,
 				51E9FF1A26484960009663F7 /* HEPIApp_background.png in Resources */,
+				51E88FD426585AB6000BBBE0 /* icons8-calendar-64.png in Resources */,
 				0A1FCA6E26459123003CFD79 /* geneISC_logo.png in Resources */,
 				0A1FCA6A264590EC003CFD79 /* launcher_background.png in Resources */,
+				51E88FD326585AB6000BBBE0 /* icons8-edit-100.png in Resources */,
 				510317E5264DA3A50096CEA5 /* GoogleService-Info.plist in Resources */,
+				51E88FD226585AB5000BBBE0 /* icons8-delete-bin-64.png in Resources */,
 				0A5EB28F2641889900844C87 /* Assets.xcassets in Resources */,
 				0A5EB28D2641889900844C87 /* Main.storyboard in Resources */,
 			);
@@ -490,12 +557,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51CDE5E22661BAA800B56FF3 /* DailyForecastTableViewCell.swift in Sources */,
+				51CDE5DD2661B9CE00B56FF3 /* ForecastTableTableViewController.swift in Sources */,
+				516E624826D6EE8C0052160F /* EventViewController.swift in Sources */,
 				510317BA264C93EE0096CEA5 /* CalendarViewController.swift in Sources */,
 				0A1FCA642644927A003CFD79 /* MapsViewController.swift in Sources */,
 				0A5EB2882641889900844C87 /* AppDelegate.swift in Sources */,
+				5187290526E07B5F00D77320 /* HEPIApp.xcdatamodeld in Sources */,
+				51852E9F26D1855600813142 /* Carte_EtudiantViewController.swift in Sources */,
+				51852E8726D184E400813142 /* AttestationViewController.swift in Sources */,
+				5187290A26E07EEE00D77320 /* CoreDataHelper.swift in Sources */,
 				0A5D4DD3264465CE007D7D15 /* PlanningViewController.swift in Sources */,
 				0A5EB2B6264191CF00844C87 /* MainActivity.swift in Sources */,
+				51286AC726D46D6200C4C830 /* DocumentsViewController.swift in Sources */,
+				518728F626E04FFD00D77320 /* DisplayNoteViewController.swift in Sources */,
 				0A2BC3E32642036B00CD4A0B /* WebViewController.swift in Sources */,
+				51852E8126D00BFA00813142 /* DocumentController.swift in Sources */,
+				518728EC26E031EC00D77320 /* ListeNotesTableViewController.swift in Sources */,
+				51344A4526D9B6A900BE8D1A /* EvenvetTableViewCell.swift in Sources */,
+				518728F126E0455D00D77320 /* ListNotesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -803,6 +883,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5187290326E07B5F00D77320 /* HEPIApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5187290426E07B5F00D77320 /* HEPIApp.xcdatamodel */,
+			);
+			currentVersion = 5187290426E07B5F00D77320 /* HEPIApp.xcdatamodel */;
+			path = HEPIApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0A5EB27C2641889900844C87 /* Project object */;
 }

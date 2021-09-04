@@ -16,12 +16,29 @@ let fichesModules  = "https://www.hesge.ch/hepia/sites/default/files//bachelor/d
 var url = ""//URL(string: "https://www.google.com")
 
 
+
 class MainActivity: UIViewController {
 
-
+//    class Note {
+//
+//        // MARK: - Properties
+//
+//        var title = ""
+//        var content = ""
+//        var creationTime = Date()
+//    }
+    
+    
+    @IBOutlet weak var lblDate: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let date = Date()
+        let dateFormatter = DateFormatter()
+        
+        self.lblDate.text = dateFormatter.string(from: date)
         
         /*let backgroundImage = UIImage.init(named: "HEPIApp_background.png")
         let backgroundImageView = UIImageView.init(frame: self.view.frame)

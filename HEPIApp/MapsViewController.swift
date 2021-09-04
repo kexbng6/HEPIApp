@@ -43,7 +43,7 @@ class MapsViewController: UIViewController, MKMapViewDelegate {
     }
     
     func centerViewOnUserLocation(){
-        if let location = locationManager.location?.coordinate{
+        if (locationManager.location?.coordinate) != nil{
             let span = MKCoordinateSpan(latitudeDelta: regionMeters, longitudeDelta: regionMeters)
             let annotation = MKPointAnnotation()
             annotation.coordinate = CLLocationCoordinate2D(latitude: 46.209464, longitude: 6.135079)

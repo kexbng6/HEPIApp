@@ -45,5 +45,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Veuillez authoriser l&apos;accès au calendrier de l&apos;iPhone</string>
 </dict>
 </plist>
